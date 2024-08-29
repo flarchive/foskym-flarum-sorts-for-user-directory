@@ -1,0 +1,71 @@
+foskym-sorts-for-user-directory:
+  admin:
+    settings:
+      sort_by_nickname: 按昵称排序（需安装 Nicknames）
+      sort_by_monthly_posts: 按月发帖/回帖排序（可能导致性能问题）
+      sort_by_groups_count: 按用户组数量排序
+      sort_by_money: 按资产排序 (需安装 Antoinefr Money)
+      sort_by_likes_received: 按获赞排序 (需安装 Likes Received)
+      sort_by_recently_seen: 按最近活动排序
+      sort_by_comments: 按回复数量排序
+      sort_by_ziven_checkin: 按签到排序 (需安装 Ziven Daily Check In)
+      sort_by_invited_user: 按邀请用户数量排序 (需安装 xypp/invite-user)
+      sort_by_badges_count: 按徽章数量排序 (需安装 v17development/flarum-user-badges)
+
+    go_to_user_directory_extension: 在 User Directory 中进行更多配置
+
+    go_to_this_extension: 在 Sorts For User Directory 中进行更多配置
+
+  forum:
+    user_card:
+      monthly_discussions: 月发帖 {count}
+      monthly_comments: 月回帖 {count}
+
+  lib:
+    integrations:
+      antoinefr-money:
+        least_money: 资产最少
+        most_money: 资产最多
+      clarkwinkelmann-likes-received:
+        most_likes_received: 获赞最多
+        least_likes_received: 获赞最少
+      core:
+        nickname_az: 昵称 (a-z)
+        nickname_za: 昵称 (z-a)
+        recently_seen: 最近曾活动
+        least_recently_seen: 最早曾活动
+        most_comments: 回复最多
+        least_comments: 回复最少
+        most_monthly_discussions: 月发帖最多
+        most_monthly_comments: 月回帖最多
+        most_groups_count: 用户组最多
+      ziven-daily-check-in:
+        recently_checkin: 最近签到
+        most_total_checkin: 累计签到最多
+        most_total_continuous_checkin: 连续签到最多
+      xypp-invite-user:
+        most_invited_user: 邀请用户最多
+      v17development-user-badges:
+        most_badges_count: 徽章最多
+
+fof-user-directory:
+  lib:
+    sort:
+      nickname_az: => foskym-sorts-for-user-directory.lib.integrations.core.nickname_az
+      nickname_za: => foskym-sorts-for-user-directory.lib.integrations.core.nickname_za
+      most_money: => foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.most_money
+      least_money: => foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.least_money
+      most_likes_received: => foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.most_likes_received
+      least_likes_received: => foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.least_likes_received
+      recently_seen: => foskym-sorts-for-user-directory.lib.integrations.core.recently_seen
+      least_recently_seen: => foskym-sorts-for-user-directory.lib.integrations.core.least_recently_seen
+      most_comments: => foskym-sorts-for-user-directory.lib.integrations.core.most_comments
+      least_comments: => foskym-sorts-for-user-directory.lib.integrations.core.least_comments
+      recently_checkin: => foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.recently_checkin
+      most_total_checkin: => foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_checkin
+      most_total_continuous_checkin: => foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_continuous_checkin
+      most_monthly_discussions: => foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_discussions
+      most_monthly_comments: => foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_comments
+      most_groups_count: => foskym-sorts-for-user-directory.lib.integrations.core.most_groups_count
+      most_invited_user: => foskym-sorts-for-user-directory.lib.integrations.xypp-invite-user.most_invited_user
+      most_badges_count: => foskym-sorts-for-user-directory.lib.integrations.v17development-user-badges.most_badges_count
