@@ -2,13 +2,20 @@
 
 > **Read-only archive of released versions of foskym/flarum-sorts-for-user-directory.** Not for installation: use [Packagist](https://packagist.org/packages/foskym/flarum-sorts-for-user-directory) or the [upstream repository](https://github.com/FoskyM/flarum-sorts-for-user-directory).
 
-**0** versions archived · Latest: [`v0.3.2`](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.3.2) · License: `MIT` · Flarum: `^1.2.0`
+**8** versions archived · Latest: [`v0.3.2`](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.3.2) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2024-08-27 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.1.0) |
+| `v0.1.1` | 2024-08-28 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.1.1) |
+| `v0.2.0` | 2024-08-28 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.2.0) |
+| `v0.2.1` | 2024-08-29 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.2.1) |
+| `v0.2.2` | 2024-08-29 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.2.2) |
+| `v0.3.0` | 2024-08-29 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.3.0) |
+| `v0.3.1` | 2024-08-29 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.3.1) |
+| `v0.3.2` | 2024-08-29 | `^1.2.0` | [Browse](https://github.com/flarchive/foskym-flarum-sorts-for-user-directory/tree/archive/v0.3.2) |
 
 Catalog entry: [packages/foskym-flarum-sorts-for-user-directory.json](https://github.com/flarchive/archive-index/blob/main/packages/foskym-flarum-sorts-for-user-directory.json)
 
